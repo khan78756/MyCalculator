@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidstudioProjects/MyCalculator1/app/src/main/res/drawable/custom_button.xml" value="0.1535" />
+        <entry key="..\:/AndroidstudioProjects/MyCalculator1/app/src/main/res/drawable/custom_pressed.xml" value="0.1535" />
+        <entry key="..\:/AndroidstudioProjects/MyCalculator1/app/src/main/res/drawable/customize_button.xml" value="0.1535" />
+        <entry key="..\:/AndroidstudioProjects/MyCalculator1/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Practice/andriod practice/Mycalculator/app/src/main/res/layout/activity_main.xml" value="0.5" />
       </map>
     </option>

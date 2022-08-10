@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         //now time for clicklisner
 
         clear.setOnClickListener {
-            expressiontext("0")
+            expressiontext("")
             resulttext()
 
         }
@@ -315,9 +315,9 @@ class MainActivity : AppCompatActivity() {
         try {
             val res=engine.eval(exp)
             if(res.toString().endsWith(".0"))
-            result.text= "= "+ res.toString().replace(".0","")
+            result.text= res.toString().replace(".0","")
             else
-                result.text= "= "+ res.toString()
+                result.text=  res.toString()
         }catch (e:Exception)
         {
             expression.text=expression.text.toString()
